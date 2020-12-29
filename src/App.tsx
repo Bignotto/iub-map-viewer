@@ -1,7 +1,15 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-const App: React.FC = () => {
-  return <h1>IUB Map Viewer</h1>;
-};
+import Routes from './routes';
+// import AppProvider from "./hooks";
+
+import './styles/global.css';
+
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
 
 export default App;

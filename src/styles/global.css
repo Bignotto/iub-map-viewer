@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #232129;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+body,
+input,
+button,
+textarea {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 500;
+}

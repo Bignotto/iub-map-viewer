@@ -1,0 +1,36 @@
+#page-landing {
+  background: #312e38;
+  width: 100%;
+  max-width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+}
+#page-landing .container {
+  background: #959500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+#page-landing header {
+  background: blue;
+}
+
+#page-landing main {
+  height: 600px;
+}
+
+#page-landing main .map-container {
+  height: 600px;
+}
+
+#page-landing main .map-container .leaflet-container{
+  height: inherit;
+}
+
+#page-landing footer {
+  background: blue;
+}
+
+
